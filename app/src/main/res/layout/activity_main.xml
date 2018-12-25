@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sage.networkfinder.MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+     <EditText
+         android:id="@+id/etNum"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:inputType="phone"
+         android:background="@drawable/input"
+         android:paddingLeft="10dp"
+         android:maxLength="11"
+         android:drawableLeft="@drawable/phone"
+         android:textColorHint="@color/PrimaryColor"
+         android:gravity="center_vertical"
+         android:layout_marginTop="50dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginBottom="10dp"
+         />
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CHECK"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"/>
+
+
+
+
+    <TextView
+        android:id="@+id/tvNetwork"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#163000"
+        android:textSize="15sp"
+        android:background="@drawable/input"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+
+       />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        >
+    <TextView
+        android:id="@+id/ighub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Built With Love By Fellows Of  "
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#034117"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+
+        />
+        <ImageView
+            android:id="@+id/pind"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pind"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/ighub"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ighub"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/pind"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

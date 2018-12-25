@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Num Finder</string>
+    <string name="input_number">Input Phone Number</string>
+
+    <string-array name="colorIndonesia">
+        <item>#077c07</item>
+        <item>#f210b323</item>
+        <item>#197d86</item>
+        <item>#a400ff0d</item>
+        <item>#ae0f4d26</item>
+        <item>#de403b0a</item>
+        <item>#e062780e</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sage.networkfinder.SplashScreen">
+    <!--android:background="@drawable/splash_background">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--&gt;-->
+        <!--&lt;!&ndash;<com.lombokcyberlab.android.multicolortextview.MultiColorTextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:colors="@array/colorIndonesia"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:text="NUMBER FINDER"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:textSize="40"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:textStyle="bold" />&ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:layout_width="500dp"-->
+            <!--android:layout_height="500dp"-->
+            <!--android:src="@drawable/logo"-->
+           <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--/>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_alignParentBottom="true">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/ighub"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Built With Love By Fellows Of  "-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="#034117"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+        <!--<ImageView-->
+            <!--android:id="@+id/pind"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:src="@drawable/pind"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_toRightOf="@id/ighub"-->
+            <!--/>-->
+      <!--<ImageView-->
+          <!--android:layout_width="100dp"-->
+          <!--android:layout_height="50dp"-->
+          <!--android:src="@drawable/ighub"-->
+        <!--android:layout_alignParentBottom="true"-->
+         <!--android:layout_toRightOf="@id/pind"-->
+          <!--/>-->
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>
